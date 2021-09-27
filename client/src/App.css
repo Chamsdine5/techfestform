@@ -1,0 +1,254 @@
+body {
+    background-color: #37b4cb;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+label {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    color: #f9f9f9;
+}
+
+hr {
+    margin-top: 30px;
+    opacity: 0.7;
+    border: 1px solid;
+    border-radius: 30px;
+    border-color: white;
+    background-color: white;
+}
+
+
+.headerImg {
+    width:100%;
+}
+
+.main-bg {
+    background-image: url("pattern.png");
+    background-position: right 0px top;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: -35px 0px 0px 7%;
+    padding-top: 85px;
+    width: 800px;
+}
+
+.label1
+{
+    font-size: 32px;
+}
+
+.label2 {
+    font-size: 16px;
+}
+
+.label3, .field-name {
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.description{
+    margin-top: 25px;
+}
+
+.form-zone {
+    margin-top: 70px;
+    margin-bottom: 250px;
+}
+
+.form-section {
+    margin-top: 65px;
+}
+
+.section-content
+{
+    margin-top: 10px;
+}
+
+.multi-select-section-content {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.field-name
+{
+    width: 30%;
+    margin: 0 auto auto 0;
+}
+
+.field-content
+{
+    width: 60%;
+    margin-left: 10px;
+}
+
+.field-error {
+    width: 10%;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.error-img {
+    margin: auto;
+    width: 25%;
+}
+
+.cb-container {
+    width: 100%;
+    height: 143px;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.cb-content {
+    width: 40%;
+    height: 53%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.multi-select-cb{
+    width: 20%;
+    margin-left: 6.7%;
+}
+
+.label-multi-select-cb {
+    font-size: 25px;
+}
+
+.first-el {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.cb-label-not-selected {
+    color: #f9f9f9;
+}
+
+.cb-label-selected {
+    color: #d6d600;
+}
+
+.cb-container-not-selected {
+    color: #f9f9f9;
+}
+
+.cb-container-selected {
+    color: #d6d600;
+    box-shadow: 0px 0px 5px #656565;
+}
+
+.cb{
+    width: 25px !important;
+    height: 25px !important;
+    
+}
+
+.cb-label {
+    width:90%;
+    margin: auto auto auto 10px;
+}
+
+.long-input-text
+{
+    height: 190px;
+}
+
+input[type='checkbox'] {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .checkmark:before {
+        box-sizing: border-box;
+        content: '';
+        -webkit-appearance: none;
+        background-color: transparent;
+        border: 2px solid #f9f9f9;
+        border-radius: 3px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+        padding: 12px;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+.cb--checkmark-box-not-selected:before {
+    border-color: #f9f9f9;
+}
+
+.cb-checkmark-box-selected:before {
+    border-color: #d6d600;
+}
+
+.checkmark-multi-select-checked:checked[type=checkbox] {
+    background-image: url("checkmark-selected.png");
+}
+
+.checkmark > input[type='checkbox']:checked {
+    box-sizing: border-box;
+    content: '';
+    display: block;
+    position: absolute;
+    margin: 0 0 0 -2px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.submit-button {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    border: solid;
+    border-radius: 5px;
+    padding: 15px 40px 15px 40px;
+}
+
+.errorsText {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #bd0000;
+}
+
+
+
